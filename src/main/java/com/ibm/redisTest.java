@@ -1,7 +1,11 @@
 package com.ibm;
 
 import redis.clients.jedis.Jedis;
-
+/**
+ * 运行redis要先开启redis服务
+ * @author jh
+ *
+ */
 public class redisTest {
 	public static void main(String[] args) {
 		// 连接本地的 Redis 服务
