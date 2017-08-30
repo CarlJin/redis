@@ -18,4 +18,8 @@ public class House extends Observable{
 	public String toString() {
 		return "房子的价格为："+this.price;
 	}
+	
+	public static void main(String[] args) {
+		
+	}
 }
